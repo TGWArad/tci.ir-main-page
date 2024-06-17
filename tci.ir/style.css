@@ -1,0 +1,227 @@
+*{
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+
+.shop
+{
+    color: white;
+    background-color: #1E4EA3;
+    width: 100%;
+}
+
+.item-container
+{
+  display: flex !important; 
+  align-items: center !important;
+}
+
+.internet_service_txt 
+{
+  display: inline-block; 
+  margin-left: 10px;
+}
+
+
+.telefon
+{
+  margin-bottom: 100px
+}
+
+.first_li
+{
+  margin-top: 60px !important;
+}
+
+.first_ul
+{
+  margin-right: 40px;
+}
+
+.li_text
+{
+  margin-right: 40px;
+}
+
+
+@media (max-width: 767px)
+{
+
+  .first_ul
+  {
+    display: flex !important;
+  }
+  .li_div
+  {
+    display: inline !important;
+  }
+  .first_li
+  {
+    margin: 0 !important;
+  }
+
+
+  .li_text
+  {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .item-container
+  {
+    display: inline !important; 
+    text-align: center !important;
+  }
+
+  .li_li
+  {
+    text-align: center;
+    align-items: center;
+  }
+
+  .telefon
+  {
+    margin: 0;
+  }
+}
+
+
+
+
+.list-inline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+.ul_second
+{
+  color: #0D1D39;
+  align-items: center;
+}
+
+.list_1 {
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 0.5cm;
+  text-align: center;
+}
+
+
+@media (min-width: 767px)
+{
+  .list_one
+  {
+    position: relative;
+    left: 100px;
+  }
+
+  .list_two
+  {
+    position: relative;
+    left: 50px;
+  }
+}
+
+@media (max-width: 767px)
+{
+  .list_one
+  {
+    margin-bottom: 50px;
+
+  }
+
+  .list_two
+  {
+    margin-bottom: 50px;
+
+  }
+}
+
+.button_
+{
+  color: white;
+  background-color: #3CABBD;
+
+  margin: 40px 0 ;
+}
+
+.btn_inline:hover
+{
+  transition: all 0.2s;
+  color: rgb(255, 166, 0);
+}
+
+.caption_1
+{
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 20px;
+}
+
+.caption_1:hover
+{
+  transition: all 1s;
+  color: rgb(212, 174, 47);
+}
+
+@media (min-width: 767px)
+{
+  .caption_1
+  {
+    width: 70%;
+    right: 15%;
+  }
+}
+
+.footer
+{
+  background:#0c2962;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+}
+
+.footer:hover
+{
+  transition: all 1s;
+  color: #da8c27;
+}
+
+.img_txt_
+{
+  color: #0c2962;
+  position: fixed;
+  bottom: 50%;
+}
+
+@media (min-width: 767px)
+{
+  .img_footer
+  {
+    display: inline;
+  }
+  .img_footer_
+  {
+    display: none;
+  }
+}
+
+@media (max-width: 767px)
+{
+  .img_footer_
+  {
+    display: block;
+  }
+  .img_footer
+  {
+    display: none;
+  }
+}
